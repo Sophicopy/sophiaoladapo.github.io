@@ -1,17 +1,10 @@
  body {
 
-<<<<<<< Updated upstream
- background:blanchedalmond;
- font-family: ariel;
- 
 
-	font-size: 100%;
-=======
  background:royalblue;
  font-family: cursive;
 	font-size: 19px;
-    max-width: 100%;
->>>>>>> Stashed changes
+    max-width: 100%
 }
 
 .container {
