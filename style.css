@@ -7,33 +7,35 @@
     max-width: 100%
 }
 
-.container {
+
+ nav ul li a:hover {
+    color: black;
+ }
+
+.container{
     width: 100%;
-    min-height: inherit;
-    padding-left: 45;
-    padding-right: 45;
+    min-height: 100px;
+    padding-right: 10px;
+    padding-left: 5px;
     box-sizing: border-box;
     overflow: hidden;
 }
 
-.navbar {
-    width: 100%;
-    display: flex;
-    align-items: center;
-
+.navbar{
+         width: 100%;
+         display: flex;
+         align-items: center;
 }
- 
-.Logo {
-      width: 150px;
 
-      cursor: pointer;
-      margin: 30px 0;
+.Logo {
+    width: 120px;
+    cursor: pointer;
+    margin: 30px 0;
 }
 
 .menu_icon {
-     width: 30px;
-     cursor: pointer;
-    
+    width: 40px;
+    cursor: pointer;
 }
 
 nav {
@@ -45,19 +47,30 @@ nav ul li{
     list-style: none;
     display: inline-block;
     margin-right: 10px;
-    margin-top: 1px;
 
 }
- nav ul li a{
-    text-decoration: none;
+
+nav ul li a{
+             text-decoration: none;
+             color: black;
+            font-size: 20px;
+ }
+
+ nav ul li a:hover{
+    color: floralwhite;
+}
+
+.button {
+    display: inline-block;
     color: antiquewhite;
-    font-size: 15px;
- }
-
- nav ul li a:hover {
-    color: black;
- }
-
+    font-weight: 500;
+    font-size: 20px;
+    background: #0052CD;
+    border: none;
+    border-radius: 3px;
+    padding: 9px 13px;
+    cursor: pointer;
+}
  .row {
     display: flex;
     justify-content: space-between;
@@ -66,9 +79,21 @@ nav ul li{
  }
 
  .col-1{
-    flex-basis: 40;
+    flex-basis: 40%;
     position: relative;
-    margin-left: auto;
+    margin-left: 24px;
  }
+
+  .col-1 h2{
+            font-size: 36px;
+            margin-top: 1px;
+  }
+
+  .col-1 h3 {
+              font-size: 26px;
+              color: #16HI9D;
+              font-weight: 9px;
+              margin: 10px;
+  }
 
 
