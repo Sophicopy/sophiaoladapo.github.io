@@ -2,7 +2,7 @@
 
 
  background:royalblue;
- font-family: "Bauhaus 93";
+ font-family: "Berlin Sans FB", "Bauhaus 93";
 	font-size: 19px;
     max-width: 100%
 }
@@ -111,7 +111,7 @@ nav ul li a{
 }
 
 button{
-    width: 140px;
+    width: 90px;
     border: 0;
     padding: 12px 10px;
     outline: none;
