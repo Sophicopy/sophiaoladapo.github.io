@@ -1,12 +1,11 @@
  body {
-        background: royalblue;
+        background: antiquewhite;
         font-size: 19px;
         max-width: 100%
     
 }
 
-.font-face{
-    font: sans-serif;
+
 }
 .container{
     width: 100%;
