@@ -1,13 +1,13 @@
  body {
-
-
- background:royalblue;
- font-family: serif, sans-serif, "Times New Roman";
-	font-size: 19px;
-    max-width: 100%
+        background: royalblue;
+        font-size: 19px;
+        max-width: 100%
+    
 }
 
-
+.font-face{
+    font: sans-serif;
+}
 .container{
     width: 100%;
     min-height: 100px;
