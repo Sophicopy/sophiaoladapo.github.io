@@ -17,6 +17,14 @@
     background-image: flyer.jpg;
 }
 
+@font-face{
+    font-family: Poppins;
+    src: url('Poppins-Regular.otf');
+    font-style: none;
+    font-weight: 500;
+}
+
+
 .navbar{
          width: 100%;
          display: flex;
