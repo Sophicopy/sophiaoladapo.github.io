@@ -18,8 +18,8 @@
 }
 
 @font-face{
-    font-family: Poppins;
-    src: url('Poppins-Regular.otf');
+    font-family: Merriweather;
+    src: url('Merriweather-Bold.ttf');
     font-style: none;
     font-weight: 500;
 }
@@ -80,7 +80,7 @@ nav ul li a{
     justify-content: space-between;
     align-items: center;
     margin: 100px 0;
-    font-family: Poppins;
+    font-family: Merriweather;
  }
 
  .col-1{
@@ -113,6 +113,7 @@ nav ul li a{
     margin: 30px 0;
     font-size: 19px;
     align-items: left;
+    font-family: Merriweather;
 }
 
 
@@ -134,4 +135,8 @@ button img{
     width: 140px;
     display: none;
 
+}
+
+.About{
+    font-family: Merriweather;
 }
