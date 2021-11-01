@@ -23,8 +23,6 @@
     font-style: none;
     font-weight: 500;
 }
-
-
 .navbar{
          width: 100%;
          display: flex;
@@ -82,6 +80,7 @@ nav ul li a{
     justify-content: space-between;
     align-items: center;
     margin: 100px 0;
+    font-family: Poppins;
  }
 
  .col-1{
