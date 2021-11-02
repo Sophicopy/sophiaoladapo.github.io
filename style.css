@@ -1,5 +1,5 @@
  body {
-        background: black;
+        background: ghostwhite;
         font-size: 19px;
         max-width: 100%
     
@@ -54,24 +54,28 @@ nav ul li{
 
 nav ul li a{
              text-decoration: none;
-             color: black;
+             color: white;
             font-size: 20px;
- }
-
- nav ul li a:hover{
-    color: darkblue;
 }
 
+nav ul li a:hover{
+    color: darkblue;
+}
+ 
 .button {
     display: inline-block;
-    color: black;
+    color: white;
     font-weight: 500;
     font-size: 20px;
-    background: #0052CD;
+    background: royalblue;
     border: none;
     border-radius: 3px;
     padding: 9px 13px;
     cursor: pointer;
+}
+
+.button:hover{
+     color: darkblue;
 }
 
 
@@ -139,4 +143,14 @@ button img{
 
 .About{
     font-family: Merriweather;
+    background-color: royalblue;
+    color: white;
+    border-width: 100%;
+    padding: 30px;
+}
+
+div.top{
+    text-align: center;
+    vertical-align: top;
+
 }
