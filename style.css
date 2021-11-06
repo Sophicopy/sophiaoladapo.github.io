@@ -1,156 +1,68 @@
- body {
-        background: ghostwhite;
-        font-size: 19px;
-        max-width: 100%
-    
+html{ font-size: 100%; box-sizing: border-box;
 }
 
-
-
-.container{
-    width: 100%;
-    min-height: 100px;
-    padding-right: 10px;
-    padding-left: 5px;
-    box-sizing: border-box;
-    overflow: hidden;
-    background-image: flyer.jpg;
+body{margin: 0;padding: 0; line-height: 1.3; background: ghostwhite; font-size: 19px; max-width: 100%
 }
 
-@font-face{
-    font-family: Merriweather;
-    src: url('Merriweather-Bold.ttf');
-    font-style: none;
-    font-weight: 500;
-}
-.navbar{
-         width: 100%;
-         display: flex;
-         align-items: center;
+.container{width: 100%; min-height: 100px;  padding-right: 10px; padding-left: 5px; box-sizing: border-box; overflow: hidden; background-image: flyer.jpg;
 }
 
-.Logo {
-    width: 120px;
-    cursor: pointer;
-    margin: 30px 0;
+@font-face{ font-family: Merriweather; src: url('Merriweather-Bold.ttf');  font-style: none; font-weight: 500;
 }
 
-.menu_icon {
-    width: 40px;
-    cursor: pointer;
+.navbar{width: 100%;display: flex; align-items: center;
 }
 
-nav {
-    flex: 1;
-    text-align: right;
+.Logo {width: 120px; cursor: pointer; margin: 30px 0;
 }
 
-nav ul li{
-    list-style: none;
-    display: inline-block;
-    margin-right: 10px;
-
+.menu_icon {width: 40px; cursor: pointer;
 }
 
-nav ul li a{
-             text-decoration: none;
-             color: white;
-            font-size: 20px;
+nav { flex: 1; text-align: right;
 }
 
-nav ul li a:hover{
-    color: darkblue;
-}
- 
-.button {
-    display: inline-block;
-    color: white;
-    font-weight: 500;
-    font-size: 20px;
-    background: royalblue;
-    border: none;
-    border-radius: 3px;
-    padding: 9px 13px;
-    cursor: pointer;
+nav ul li{list-style: none; display: inline-block; margin-right: 10px;
 }
 
-.button:hover{
-     color: darkblue;
+nav ul li a{text-decoration: none; color: white; font-size: 20px;
 }
 
+nav ul li a:hover{color: darkblue;
+}
 
- .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 100px 0;
-    font-family: Merriweather;
+.button {display: inline-block; color: white; font-weight: 500; font-size: 20px; background: royalblue; border: none; border-radius: 3px; padding: 9px 13px; cursor: pointer;
+}
+
+.button:hover{color: darkblue;
+}
+
+.row {display: flex; justify-content: space-between; align-items: center; margin: 100px 0; font-family: Merriweather;
  }
 
- .col-1{
-    flex-basis: 40%;
-    position: relative;
-    margin-left: 24px;
-    align-content: center;
+.col-1{flex-basis: 40%; position: relative; margin-left: 24px; align-content: center;
  }
 
-  .col-1 h2{
-            font-size: 36px;
-            font-weight: 2px;
-            margin-top: 1px;
-  }
+.col-1 h2{font-size: 36px; font-weight: 2px; margin-top: 1px;
+ }
 
-  .col-1 h3 {
-              font-size: 26px;
-              color: #16HI9D;
-              font-weight: 9px;
-              margin: 5px;
+.col-1 h3 {font-size: 26px; color: #16HI9D; font-weight: 9px; margin: 5px;
 }
 
-.col-1 p{
-    font-size: 16px;
-    color: black;
-    font-weight: 100;
+.col-1 p{font-size: 16px; color: black; font-weight: 100;
 } 
 
-.col-1 h4 {
-    margin: 30px 0;
-    font-size: 19px;
-    align-items: left;
-    font-family: Merriweather;
+.col-1 h4 {margin: 30px 0; font-size: 19px; align-items: left; font-family: Merriweather;
 }
 
-
-
-
-
-button{
-    width: 90px;
-    border: 0;
-    padding: 12px 10px;
-    outline: none;
-    color: royalblue;
-    background: linear-gradient(to right. #0000FF, #FF0000);
-    border-radius: 10px;
-    cursor: pointer;
+button{width: 90px; border: 0; padding: 12px 10px; outline: none; color: royalblue; background: linear-gradient(to right. #0000FF, #FF0000); border-radius: 10px; cursor: pointer;
 }
 
-button img{
-    width: 140px;
-    display: none;
-
+button img{width: 140px; display: none;
 }
 
-.About{
-    font-family: Merriweather;
-    background-color: royalblue;
-    color: white;
-    border-width: 100%;
-    padding: 30px;
+.About{font-family: Merriweather; background-color: royalblue; color: white; border-width: 100%; padding: 30px;
 }
 
-div.top{
-    text-align: center;
-    vertical-align: top;
-
+div.top{text-align: center; vertical-align: top;
 }
