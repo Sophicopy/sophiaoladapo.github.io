@@ -31,7 +31,8 @@ nav ul li a{text-decoration: none; color: white; font-size: 20px;
 nav ul li a:hover{color: darkblue;
 }
 
-.button {display: inline-block; color: white; font-weight: 500; font-size: 20px; background: royalblue; border: none; border-radius: 3px; padding: 9px 13px; cursor: pointer;
+.button{
+    color: black;
 }
 
 .button:hover{color: darkblue;
