@@ -56,11 +56,6 @@ nav ul li a:hover{color: darkblue;
 .col-1 h4 {margin: 30px 0; font-size: 19px; align-items: left; font-family: Merriweather;
 }
 
-button{width: 90px; border: 0; padding: 12px 10px; outline: none; color: royalblue; background: linear-gradient(to right. #0000FF, #FF0000); border-radius: 10px; cursor: pointer;
-}
-
-button img{width: 140px; display: none;
-}
 
 .About{font-family: Merriweather; background-color: royalblue; color: white; border-width: 100%; padding: 30px;
 }
