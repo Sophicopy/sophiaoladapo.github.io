@@ -1,1 +1,4 @@
-alert ('This page uses cookies to serve you');
+
+function myFunction(x) {
+  x.classList.toggle("change");
+}
