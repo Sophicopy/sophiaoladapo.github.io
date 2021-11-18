@@ -358,7 +358,7 @@ a.activa, a:hover{
 }
 
 .style{
-    background: black;
+    background: linear-gradient( darkblue, seagreen);
     font-family: Raleway;
     justify-items: center;
     width: 100%;
