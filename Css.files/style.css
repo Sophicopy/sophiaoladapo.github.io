@@ -30,7 +30,7 @@ body{
     padding: 0; 
     line-height: 1.3; 
     background: #FDFDFD;
-     font-size: 20px; 
+     font-size: 21px; 
      max-width: 100%
 }
 
@@ -225,8 +225,11 @@ a.activa, a:hover{
     height: 5px;
     color: floralwhite;
     padding: 5px 5px 5px 5px;
-    background: linear-gradient(#00FF00, #0000FF) ;
+    background: black;
+    border-radius: 1.2px;
+    border: 1px havelock blue ;
 }
+ 
 
 .btn:hover{
     color: black;
