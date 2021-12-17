@@ -1,7 +1,7 @@
 *{padding: 0; margin: 0;
     text-decoration: none;
     box-sizing: border-box;
-
+    font-size: 25px;
 }
 
 @font-face{
@@ -30,7 +30,6 @@ body{
     padding: 0; 
     line-height: 1.3; 
     background: #FDFDFD;
-     font-size: 21px; 
      max-width: 100%
 }
 
@@ -40,7 +39,7 @@ body{
 
 nav { 
     background: #4D80CD;
-    height: 60px;
+    height: 65px;
     width: 100%;
 
 }
@@ -133,6 +132,16 @@ a.activa, a:hover{
     }
 
 @media (max-width: 858px){
+   label.menu{
+    font-size: 38px;
+   }
+   
+   .Logo{
+   display: none;
+   
+   }
+   
+   
   .checkbtn{
     display: block;
    }
@@ -216,7 +225,8 @@ a.activa, a:hover{
     color: black; 
     border-width: 100%; 
     padding: 30px;
-    align-items: center;   
+    align-items: center;  
+    font-size: 24px;
 }
 
 
@@ -352,12 +362,12 @@ a.activa, a:hover{
     height: 5px;
     color: floralwhite;
     padding: 5px 5px 5px 5px;
-    background: linear-gradient(#00FF00, #0000FF) ;
+    background: black;
 }
 
 .btn:hover{
     color: black;
-    background: 1px solid green;
+    background:  lightgreen;
 }
 
 .style{
