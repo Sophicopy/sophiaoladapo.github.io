@@ -6,7 +6,7 @@
 
 @font-face{
   font-family: Poppins;
-  src: url('Fonts/poppins/Poppins-Regular.tff');
+  src: url('./Fonts/poppins/Poppins-Regular.tff');
 }
 
 @font-face{
@@ -44,7 +44,7 @@
 	
 	
 header{
-  background-image: url('Images/bg-image.jpg');
+  background-image: url('./Images/bg-image.jpg');
   height: 100vh;
   background-size: cover;
   background-position: center;
