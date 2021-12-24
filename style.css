@@ -6,11 +6,11 @@
 
 @font-face{
   font-family: Poppins;
-  src: url('Fonts/Poppins/Poppins-Regular.tff');
+  src: url('Fonts/poppins/Poppins-Regular.tff');
 }
 
 @font-face{
-	font-family: Montserrat;
+	font-family: Monserrat;
 	src: url('Fonts/Montserrat/Montserrat-Medium.ttf')
 }
 *{
