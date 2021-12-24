@@ -1,0 +1,145 @@
+:root{
+  --prcolor: #4D80CD;
+  --fontf: Poppins, Montserrat, Arial, sans-serif;
+  --fontw: bold;
+}
+
+@font-face{
+  font-family: Poppins;
+  src: url('../Fonts/Poppins/Poppins-Regular.tff');
+}
+
+@font-face{
+	font-family: Montserrat;
+	src: url('../Fonts/Montserrat/Montserrat-Medium.ttf')
+}
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  font-family:  var(--fontf);
+  box-sizing: border-box;
+  font-display: ;
+  color: white;
+}
+
+.Logo{
+  font-size: 25px;
+  color: white;
+  margin: 15px;
+  line-height: 0.9;
+  font-family: var(--fontf);
+  cursor: pointer;
+  font-weight: bold;
+}
+	
+	.Logo:hover{
+		color: black;
+		padding: 5px; 
+	}
+	
+	
+	
+	
+header{
+  background-image: url('../images/bg-image.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.nav{
+  color: white;
+  background: var(--prcolor);
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul{
+  
+  display: flex;
+  padding: 4px;
+  margin: 5px 6px;
+}
+
+ul li {
+  padding: 5px 6px;
+  margin: 0 5px;
+  
+}
+
+ul li .activa{
+  color: white;
+  font-family: var(--fontf);
+  display: inline-block;
+}
+
+ul li .activa:hover{
+	background: white;
+	color: #4D80CD;
+	padding: 6px;
+}
+
+
+#bars{
+	display: none;
+}
+
+h1{
+	font-size: 50px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px;
+	margin: 240px 0;
+	
+}
+
+.a{
+	color: white;
+	background-color: #4d80cd;
+	padding: 15px;
+	border-radius: 5px;
+	margin: 10px;
+	text-align: center;
+	align-items: center;
+}
+@media (max-width: 852px){
+	
+	.Logo{
+		cursor: pointer;
+		font-size: 22px;
+		
+	}
+	.nav{
+		width: 100%;
+		height: 10%;
+	}
+	
+	ul li .activa{
+		display: none;
+	}
+	
+	#bars{
+  font-size: 30px;
+  margin: 5px;
+  padding: 4px;
+  color: white;
+  float: right;
+  
+ 
+ 
+}
+  
+}
+
+@media (max-width: 1440px) (min-width: 952px){
+	#bars{
+		display: none;
+	}
+}
