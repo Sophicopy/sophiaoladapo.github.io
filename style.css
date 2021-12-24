@@ -6,12 +6,12 @@
 
 @font-face{
   font-family: Poppins;
-  src: url('../Fonts/Poppins/Poppins-Regular.tff');
+  src: url('Fonts/Poppins/Poppins-Regular.tff');
 }
 
 @font-face{
 	font-family: Montserrat;
-	src: url('../Fonts/Montserrat/Montserrat-Medium.ttf')
+	src: url('Fonts/Montserrat/Montserrat-Medium.ttf')
 }
 *{
   padding: 0;
@@ -44,7 +44,7 @@
 	
 	
 header{
-  background-image: url('../images/bg-image.jpg');
+  background-image: url('Images/bg-image.jpg');
   height: 100vh;
   background-size: cover;
   background-position: center;
